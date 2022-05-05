@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp48.MyWindow.Dobavit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp48.MyWindow"
+        mc:Ignorable="d"
+        Title="Dobavit" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="dataGridContext">
+
+        </DataGrid>
+
+
+        <Button x:Name="Back" Click="Back_Click" Content="Назад" HorizontalAlignment="Left" Margin="653,380,0,0" VerticalAlignment="Top" Height="44" Width="137"/>
+        <TextBox x:Name="NameStudText" HorizontalAlignment="Left" Margin="128,228,0,0" Text="Имя" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="IdGroups" HorizontalAlignment="Left" Margin="289,228,0,0" Text="Id Group" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Click="dobavit_Click_1" x:Name="dobavit" Content="Button" HorizontalAlignment="Left" Margin="208,266,0,0" VerticalAlignment="Top" Height="30" Width="117"/>
+
+    </Grid>
+</Window>

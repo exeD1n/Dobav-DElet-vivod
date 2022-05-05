@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp48.MyWindow.Deleted"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp48.MyWindow"
+        mc:Ignorable="d"
+        Title="Deleted" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="dataGrid">
+
+        </DataGrid>
+        <Button x:Name="back" Click="back_Click" Content="Button" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Height="41" Width="139"/>
+        <TextBox x:Name="IDdelet" HorizontalAlignment="Left" Margin="507,254,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Click="deletbluy_Click" x:Name="deletbluy" Content="Удалить" HorizontalAlignment="Left" Margin="507,297,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
